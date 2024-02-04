@@ -1,0 +1,11 @@
+name: backend
+
+on: 
+  push:
+    branches:
+      - main
+      
+jobs:
+  build:
+    runs-on: ubuntsu-latest
+    steps: echo hellow world
